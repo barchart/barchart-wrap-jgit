@@ -1,0 +1,13 @@
+
+.project
+.classpath
+.settings/
+
+src/
+bin/
+log/
+logs/
+target/
+
+release.properties
+pom.xml.releaseBackup
