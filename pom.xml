@@ -15,10 +15,12 @@
 	<packaging>bundle</packaging>
 
 	<scm>
-		<url>https://github.com/barchart/barchart-wrap-jackson</url>
-		<connection>scm:git:git://github.com/barchart/barchart-wrap-jackson.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-wrap-jackson.git</developerConnection>
+		<url>https://github.com/barchart/barchart-wrap-jgit</url>
+		<connection>scm:git:git://github.com/barchart/barchart-wrap-jgit.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-wrap-jgit.git</developerConnection>
 	</scm>
+
+	<description>wrapper to remove require-bundle eclipse manifest error</description>
 
 	<repositories>
 
@@ -28,9 +30,6 @@
 		</repository>
 
 	</repositories>
-
-	<description>
-	</description>
 
 	<properties>
 
