@@ -144,6 +144,8 @@
 							Include-Resource,
 							Private-Package,
 							Ignore-Package,
+							Embed-Dependency,
+							Embed-Transitive,
 						</_removeheaders>
 						<Import-Package>
 							*,

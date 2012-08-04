@@ -9,7 +9,7 @@
 -->
 ## info
 
-osgi bundle wrapper for jgi
+osgi bundle wrapper for jgit
 
 ### repo
 
