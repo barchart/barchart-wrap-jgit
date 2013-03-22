@@ -6,12 +6,12 @@
 	<parent>
 		<groupId>com.barchart.base</groupId>
 		<artifactId>barchart-archon</artifactId>
-		<version>2.1.2</version>
+		<version>2.4.1</version>
 	</parent>
 
 	<groupId>com.barchart.wrap</groupId>
 	<artifactId>barchart-wrap-jgit</artifactId>
-	<version>2.0.0-build001-SNAPSHOT</version>
+	<version>2.3.1-build001-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<scm>
@@ -20,7 +20,9 @@
 		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-wrap-jgit.git</developerConnection>
 	</scm>
 
-	<description>wrapper to remove require-bundle eclipse manifest error</description>
+	<!-- JGit OSGI wrapper to remove "Require-Bundle: com.jcraft.jsch" Eclipse 
+		JGit project manifest error, so JSch can be upgraded. -->
+	<description>JGit for OSGI</description>
 
 	<repositories>
 
@@ -33,7 +35,7 @@
 
 	<properties>
 
-		<jgitVersion>2.0.0.201206130900-r</jgitVersion>
+		<jgitVersion>2.3.1.201302201838-r</jgitVersion>
 
 		<unpackSource>target/unpack-source</unpackSource>
 
